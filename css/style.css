@@ -1,14 +1,133 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-:root{
-    color: rgba(33, 101, 246, 1);
-    color: #B4D0E7;
-    color: black;
-    color: #0061FF ;
-    color: #2165F6;
-    color: white;
-}
+  /* debug */
+  .debug header {
+    background-color: rgb(233, 15, 15);
+    height: 200px;
+  }
+  .debug .logo {
+    background-color: rgb(12, 233, 12);
+    height: 200px;
+  }
+  .debug .access {
+    background-color: rgb(237, 25, 56);
+    height: 200px;
+  }
+  .debug .jumbo {
+    height: 500px;
+    background-color: #1890f2;
+  }
+  .debug .title {
+    height: 500px;
+    background-color: rgb(14, 79, 79);
+  }
+  .debug .business {
+    height: 800px;
+    background-color: rgb(0, 123, 117);
+  }
+  .debug .piano {
+    height: 800px;
+    background-color: rgb(74, 43, 5);
+  }
+  .debug .partner {
+    height: 400px;
+    background-color: deepskyblue;
+  }
+  .debug .solution {
+    height: 400px;
+    background-color: darkturquoise;
+  }
+  .debug .img_1 {
+    height: 400px;
+    background-color: rgb(5, 0, 9);
+  }
+  .debug .partner_title {
+    height: 400px;
+    background-color: darkmagenta;
+  }
+  .debug .strumenti {
+    height: 500px;
+    background-color: darkorange;
+  }
+  .debug .client {
+    height: 200px;
+    background-color: darkred;
+  }
+  .debug .designit {
+    height: 450px;
+    background-color: grey;
+  }
+  .debug .azienda {
+    height: 200px;
+    background-color: #b4d0e7;
+  }
+  .debug .title_azienda {
+    height: 200px;
+    background-color: hotpink;
+  }
+  .debug .btn_try {
+    height: 200px;
+    background-color: indianred;
+  }
+  .debug .domande {
+    height: 550px;
+    background-color: lavender;
+  }
+  .debug footer {
+    height: 600px;
+    background-color: #000000;
+  }
+  .debug .dropbox {
+    height: 500px;
+    background-color: rgb(216, 44, 202);
+  }
+  .debug .language {
+    height: 100px;
+    background-color: rgb(105, 34, 26);
+  }
+  /* utility */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container_large {
+    width: 80%;
+    margin: auto;
+  }
+  .container_small {
+    width: 60%;
+    margin: auto;
+  }
+  /* header */
+  .logo,
+  .access {
+    float: left;
+    width: 50%;
+  }
+  /* main */
+  .img_1,
+  .partner_title {
+    float: left;
+  }
+  .img_1 {
+    width: 60%;
+  }
+  .partner_title {
+    width: 40%;
+  }
+  .title_azienda,
+  .btn_prova {
+    float: left;
+    width: 50%;
+  }
+  /* footer */
+  .dropbox {
+    float: left;
+    width: 20%;
+  }
