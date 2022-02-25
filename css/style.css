@@ -5,6 +5,14 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+  :root{
+    color: #B4D0E7;
+    color: black;
+    color: white;
+    color: #0061FF;
+    color: #2165F6;
+  }
+
   body{
     min-width: 1440px
   }
@@ -101,8 +109,9 @@
     clear: both;
   }
   .container_large {
-    width: 80%;
+    width: 85%;
     margin: auto;
+    padding-top: 100px;
   }
   .container_small {
     width: 60%;
@@ -111,10 +120,10 @@
   /* header */
   .site_header {
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
     background-color: white;
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
   }
@@ -126,24 +135,27 @@
 
 .logo {
   vertical-align: middle;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .site_header ul {
   display: inline;
   vertical-align: middle;
 }
-.site_header li {
+.site_header li,a{
   display: inline-block;
   list-style: none;
   padding-right: 1rem;
 }
-.site_header li > a {
+.site_header a {
   text-decoration: none;
   color: black;
 }
 .right_menu {
-  text-align: right;
-  width: 50%;
+  /* text-align: right;
+  width: 50%; */
+  position: absolute;
+  top: 0;
+  right: 2rem;
 }
 
 .btn_primary {
@@ -158,6 +170,65 @@
 }
 
   /* main */
+  .bg_absolute{
+    background-color: #B4D0E7;
+  }
+  .site_main {
+    margin-top: 100px;
+  }
+  .title > h1 {
+    font-size: 4.5rem;
+    padding-top: 5rem 2rem;
+  }
+  .container {
+    margin-top: 3rem;
+    position: relative;
+  }
+
+  .sub_title,
+  .proposal{
+    float: left;
+    width: 30%;
+  }
+
+  .sub_title{
+    padding-right: 1rem;
+  }
+
+  .sub_title p {
+    font-weight: 300;
+  }
+  .btn_try {
+    margin: 2rem 0 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .fas {
+    font-size: 3rem;
+    padding: 3rem 0;
+    color: black;
+  }
+  .proposal {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .img_prop {
+    width: 100%;
+  }
+
+  h1,
+  p{
+    color: black;
+  }
+  .col_30 {
+    float: left;
+    width: 30%;
+  }
+  
+
+  
   /* .img_1,
   .partner_title {
     float: left;
