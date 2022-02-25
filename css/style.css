@@ -116,7 +116,11 @@
   .container_small {
     width: 60%;
     margin: auto;
+    margin-top: 200px;
   }
+
+
+
   /* header */
   .site_header {
     width: 100%;
@@ -227,25 +231,122 @@
     width: 30%;
   }
   
-
   
-  /* .img_1,
-  .partner_title {
-    float: left;
-  }
-  .img_1 {
-    width: 60%;
-  }
-  .partner_title {
-    width: 40%;
-  }
-  .title_azienda,
-  .btn_prova {
-    float: left;
-    width: 50%;
-  } */
-  /* footer */
-  /* .dropbox {
-    float: left;
-    width: 20%;
-  } */
+  .radio_mensile,
+.radio_annuale {
+  display: inline-block;
+  position: relative;
+  padding-right: 1rem;
+}
+/* business */
+.radio_mensile li,
+.radio_annuale li {
+  list-style: none;
+  padding-left: 1.5rem;
+  color: black;
+}
+.fattura,
+.annuale {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fattura {
+  border: 5px solid #0061ff;
+}
+.annuale {
+  border: 1px solid #ebebec;
+}
+.title_h2{
+  color: black;
+}
+
+.row{
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.prima_colonna,
+.seconda_colonna,
+.terza_colonna{
+  width: 30%;
+  border:  1px solid rgb(136, 136, 136);
+  color: black;
+  float: left;
+  text-align: center;
+  margin-right: 27px;
+}
+
+.center{
+  text-align: center;
+}
+
+.type, .storage, .functions, .buynow {
+  padding-top: 2rem;
+}
+
+.price {
+  padding-top: 1rem;
+}
+
+.month {
+  padding-top: .5rem;
+  font-size: .8rem;
+  color: gray;
+}
+
+.users {
+  padding-top: 3.5rem;
+}
+
+.buynow, .blue {
+  font-size: .8rem;
+}
+
+.blue {
+  text-decoration: underline;
+  color: #0665ff;
+}
+
+.functions {
+  padding-bottom: 3.5rem;
+}
+
+.hr {
+  height: 2rem;
+  width: 50px;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid lightgray;
+}
+
+.plans ul {
+  padding-bottom: 7rem;
+}
+
+.features_list li:before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  color: #0665ff;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+
+.features_list li {
+  padding-top: 1.5rem;
+  padding-left: 18px;
+  list-style: none;
+}
+
+
+
