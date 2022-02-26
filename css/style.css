@@ -148,7 +148,7 @@
 .site_header li,a{
   display: inline-block;
   list-style: none;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
 }
 .site_header a {
   text-decoration: none;
@@ -229,6 +229,7 @@
   .col_30 {
     float: left;
     width: 30%;
+    margin-right: 20px;
   }
   
   
@@ -262,6 +263,10 @@
   border: 1px solid #ebebec;
 }
 .title_h2{
+  color: black;
+}
+
+h2,h3{
   color: black;
 }
 
@@ -348,5 +353,81 @@
   list-style: none;
 }
 
+.group{
+  border: 1px solid #acacac;
+  text-align: center;
+  padding: 0.5rem;
+  color: black;
+}
+.group h4 {
+  font-weight: normal;
+}
 
+.enterprise {
+  margin: 3rem 0 5rem;
+}
+.vendite {
+  position: relative;
+}
+.vendite h4 {
+  padding: 1rem 0 2rem;
+}
+.btn_office {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.5rem 5rem;
+}
+
+.pad_com {
+  padding: 2rem;
+  border: 1px solid #acacac;
+  color: black;
+}
+
+.img100w {
+  width: 100%;
+}
+
+.img_1 {
+  width: 60%;
+}
+.partner_title {
+  width: 40%;
+}
+.contatto {
+  padding: 3rem;
+}
+.contatto h3,
+.quotidiano h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.contatto p {
+  padding: 1rem 0;
+}
+
+.btn_light {
+  background-color: white;
+  padding: 0.4rem 1rem;
+  border: 1px solid black;
+}
+
+.f_leaft{
+  float: left;
+}
+
+.noline{
+  text-decoration: none;
+  text-align: center;
+}
+
+.quotidiano h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.pad_tb {
+  padding: 2rem 0 5rem;
+}
 
