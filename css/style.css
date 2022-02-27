@@ -590,13 +590,13 @@ footer li {
   background-color: lightblue;
 }
 
-.team_user div.bluelight-bg .wrapper{
+.team_user .bluelight-bg .wrapper{
   padding: 100px 80px;
 }
 .team_user .textx{
   width: 60%;
 }
-#team-users h2{
+.team-users h2{
   display: block;
   width: 80%;
 }
