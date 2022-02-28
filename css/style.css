@@ -156,6 +156,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
 }
 
 .dropdown-content a:hover {background-color: rgb(255, 255, 255);}
@@ -163,17 +164,6 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover {background-color: #fefefe;}
-
-
-
-
-
-
-
-
-
-
-
 
 .logo {
   vertical-align: middle;
