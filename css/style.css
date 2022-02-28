@@ -133,9 +133,47 @@
   }
 
 .left_menu,
-.right_menu {
+.right_menu{
   display: inline-block;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(255, 255, 255);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover {background-color: #fefefe;}
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
   vertical-align: middle;
@@ -465,6 +503,41 @@ h2,h3{
   text-align: center;
   margin-bottom: 20px;
 }
+
+
+.accordion {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 253, 253);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  color: black;
+  
+}
+
+
+
+
+
+
+
 
 .domande p,
 .risposta {

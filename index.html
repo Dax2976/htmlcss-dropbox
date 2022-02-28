@@ -13,23 +13,28 @@
 </head>
 <body class="">
     <header class="site_header">
-        <div class="left_menu">
+        <div class="left_menu dropdown">
             <img src="./img_dropbox/logo-small.png" alt="" class="logo">
             <ul>
-                <li><a href="#">Perchè Dropbox? </a></li>
+                <li class="dropdown"><a href="#">Perchè Dropbox? </a>
+                    <div class="dropdown-content">
+                        <a href="">link1</a>
+                        <a href="">link2</a>
+                        <a href="">link3</a>
+                    </div>
+                </li>
                 <li><a href="#">Funzioni</a></li>
                 <li><a href="#">Piani e prezzi</a></li>
             </ul>
         </div>
-        <div class="right_menu">
-            <ul>
+        <div class="right_menu drop-menu">
+            <ul id="menu">
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
                 <button class="inizia btn_primary"><a href="#">Inizia</a></button>
             </ul>
         </div>
-        
     </header>
     <!-- /.site_header -->
     <main class="site_main">
@@ -428,7 +433,7 @@
                     <li>Funzioni</li>
                 </ul>
             </div>
-            <div class="dropbox col_20">
+            <div class="dropbox col_20 dropdown-content">
                 <h4>Supporto</h4>
                 <ul>
                     <li>Applicazione desktop</li>
